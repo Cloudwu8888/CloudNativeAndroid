@@ -5,7 +5,7 @@
  */
 import MobileCenter from 'mobile-center';
 import Crashes from "mobile-center-crashes";
-import Analystic from "mobile-center-analystic";
+import Analytics from "mobile-center-analytics";
 //import Push from "mobile-center-push";
 import React, { Component } from 'react';
 import {
