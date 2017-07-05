@@ -1,0 +1,3 @@
+rootProject.name = 'ReactAndroidCloud'
+
+include ':app'
