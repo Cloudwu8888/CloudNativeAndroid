@@ -49,16 +49,19 @@ export default class ReactAndroidCloud extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <Button  
+                onPress={ClickBtn}  
+                title="Learn More"  
+                color="green"  
+               disabled={this.state.disabled}  
+               accessibilityLabel="Learn more about this purple button" 
+        /> 
+        <Button  
+              onPress={ChangeDisable.bind(this)}  
+              title="change"  
+              color="gray"  
+             accessibilityLabel="Learn more about this purple button"
+             /> 
       </View>
     );
   }
